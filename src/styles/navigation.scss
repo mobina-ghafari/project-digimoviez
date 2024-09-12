@@ -17,3 +17,125 @@
         background-color: #eb8307;
     }
 }
+
+.nav-bottom{
+    background-color: rgba(34, 34, 34, .9);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, .4); 
+    padding: 10px 0px;
+    
+    .nav-items{
+        color: #eb8307;
+        text-decoration: none;
+
+        .items-icon{
+            width: 25px;
+            height: 25px;
+            transition: all 0.2s;
+        }
+
+        span{
+            font-size: 13.6px;
+        }
+    }
+
+    .nav-items:hover{
+        .items-icon{transform: scale(1.2 , 1.2);}
+    }
+
+    .nav-item-movies-hover , .nav-item-series-hover , .nav-item-artists-hover{
+        position: absolute;
+        right: 10%;
+        top: 24%;
+        width: 45%;
+        z-index: 1;
+        display: none;
+    }
+
+    .item-movies , .item-series , .item-artists{
+        background-color: rgba(34, 34, 34, .9);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        border-radius: 8px;
+        padding: 20px 0px 0px 10px;
+
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: right;
+            
+
+            li{
+                    width: 45%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-bottom: 5px;
+                    
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 90%;
+                    transition: all 0.2s;
+                    
+                }
+                a:hover{color: #eb8307;}
+            }
+            li::marker{
+                content: normal;
+                color: #eb8307;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    .nav-item-movies:hover{
+        .nav-item-movies-hover{
+            display: block;
+        }
+    }
+
+    .nav-item-series:hover{
+        .nav-item-series-hover{
+            display: block;
+        }
+    }
+
+    .nav-item-artists:hover{
+        .nav-item-artists-hover{
+            display: block;
+        }
+    }
+}
+
+.input-search{
+    width: 25%;
+    form{
+        background-color: #050505;
+        width: 100%;
+        height: 42px;
+        border-radius: 35px;
+        padding:5px 10px;
+        input{
+            border: none;
+            background: none;
+            width: 100%;
+            outline: none;
+            color: white;
+        }
+    
+        button{
+            border: none;
+            background:none;
+            color: #eb8307;
+        }
+    }
+}
+
+@media (max-width:990px){
+    .input-search{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
