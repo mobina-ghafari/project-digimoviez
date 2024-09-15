@@ -1,4 +1,4 @@
-
+$yellow:#eb8307;
 
 
 .nav-top{
@@ -14,7 +14,7 @@
     }
 
     a:hover{
-        background-color: #eb8307;
+        background-color: $yellow;
     }
 }
 
@@ -24,7 +24,7 @@
     padding: 10px 0px;
     
     .nav-items{
-        color: #eb8307;
+        color: $yellow;
         text-decoration: none;
 
         .items-icon{
@@ -80,11 +80,11 @@
                     transition: all 0.2s;
                     
                 }
-                a:hover{color: #eb8307;}
+                a:hover{color: $yellow;}
             }
             li::marker{
                 content: normal;
-                color: #eb8307;
+                color: $yellow;
                 font-size: 1.2em;
             }
         }
@@ -128,14 +128,36 @@
         button{
             border: none;
             background:none;
-            color: #eb8307;
+            color: $yellow;
         }
     }
 }
+
+.menu{
+    display: none;
+}
+
 
 @media (max-width:990px){
     .input-search{
         width: 100%;
         margin-top: 20px;
+    }
+}
+
+@media (max-width:660px){
+    .hiden-items{
+        ul{
+            display: none;
+            li{
+                display: none;
+            }
+        }
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        background-color: black;
     }
 }

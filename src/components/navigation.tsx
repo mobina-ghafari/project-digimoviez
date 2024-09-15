@@ -11,18 +11,19 @@ import { faTv } from '@fortawesome/free-solid-svg-icons';
 import { faTheaterMasks } from '@fortawesome/free-solid-svg-icons';
 import { faHeadset } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Nav =()=>{
     return(
-        <div className="container-fluid mt-3 px-0">
+        <div className="container-fluid px-0">
             <div className="nav-top">
                 <div className="row px-0 mx-0">
                     <div className="col-xl-10 col-lg-12 mx-auto">
                         <div className="d-md-flex align-items-center justify-content-between text-center">
-                            <div className="">
+                            <div className="mt-3">
                                 <img src={Logo} width={"250px"} alt="" className="" />
                             </div>
-                            <div className="d-flex align-items-center text-center justify-content-center">
+                            <div className=" mt-3 d-flex align-items-center text-center justify-content-center">
                                 <a href="/" className="me-2">وارد شوید<FontAwesomeIcon className='ms-2' style={{width:"19px" , height:"19px"}} icon={faRightToBracket} /></a>
                                 <a href="/" className="">ثبت نام<FontAwesomeIcon className='ms-2' style={{width:"19px", height:"19px"}} icon={faUserPlus} /></a>
                             </div>
@@ -33,7 +34,7 @@ const Nav =()=>{
             <div dir='rtl' className="nav-bottom mx-0 px-0 mt-4">
                 <div className="row mx-0 px-0">
                     <div className="col-xl-10 col-lg-12 mx-auto">
-                        <div className=" d-lg-flex align-items-center justify-content-between py-3">
+                        <div className="hiden-items d-lg-flex align-items-center justify-content-between py-3">
                         <ul className=" d-flex align-items-center justify-content-center text-center my-auto mx-0 px-0" style={{listStyle:"none"}}>
                             <li className="ms-5">
                                 <a href="/" className="nav-items d-flex align-items-center">
@@ -181,6 +182,9 @@ const Nav =()=>{
                             </li>
                         </ul>
                         <div className="input-search d-flex" >
+                            <div className="menu ms-5 me-2 text-white btn text-center">
+                                <FontAwesomeIcon style={{width:"30px" , height:"30px"}} icon={faBars}/>
+                            </div>
                             <form action="" className='d-flex'>
                                 <input type="text" placeholder='جستجو کنید . . .' />
                                 <button className=""><FontAwesomeIcon icon={faSearch}/></button>

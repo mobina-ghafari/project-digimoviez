@@ -1,0 +1,147 @@
+$yellow:#eb8307;
+$backgroundBox:#1c1c1c;
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+.search-box{
+    background-color: #242424;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.search-icon{
+    background-color: $backgroundBox;
+    width: 15%;
+    @include flex();
+    justify-content: center;
+    flex-direction: column;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media(max-width:1420px){
+    .search-icon{
+        display: none;
+    }
+}
+
+.search-type{
+    @include flex();
+
+    .search-type-input{
+        background-color: $backgroundBox;
+        border-radius: 20px;
+        padding: 4px;
+
+    }
+
+    input{
+        display: none;
+    }
+
+    label{
+        display: inline-block;
+        padding: 4px 10px;
+        text-align: center;
+        border-radius: 20px;
+        color: white;
+        font-size: 13px;
+        cursor: pointer;
+        margin-right: 5px;
+        transition: all 0.3s ease;
+    }
+
+    input:checked + label{
+        background-color: $yellow;
+        color: white;
+    }
+
+    label:hover {
+        color: white;
+      }
+}
+
+.search-director , .search-actor{
+    @include flex();
+    
+    input{
+        background-color: $backgroundBox;
+        border: none;
+        outline: none;
+        color: #646464;
+        border-radius: 20px;
+        min-width: 165px;
+        padding:5px 10px;
+        float: right;
+    }
+}
+
+.search-year , .search-score{
+    .slider{
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        margin-top: 20px;
+    }
+    
+    .slider .thumb {
+        width: 15px;
+        height: 15px;
+        cursor: grab;
+        background: $yellow;
+        border-radius: 20%;
+        transform: rotate(140deg);
+        top: -7px;
+        border: none;
+        outline: none;
+    }
+    
+}
+
+.search-select{
+    @include flex();
+    select{
+        background-color: $backgroundBox;
+        min-width: 165px;
+        padding:6px 10px;
+        color: #646464;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        border-radius: 20px;
+
+        option{
+            min-width: 165px;
+            padding:5px 10px;
+            color: #646464;
+            
+        }
+    }
+}
+
+@media (max-width:770px){
+    .search-actor , .search-director , .search-type{
+        justify-content: center;
+        input{
+            width: 100%;
+        }
+    }
+
+    .search-select{
+        justify-content: center;
+        select{
+            width: 100%;
+        }
+    }    
+}
+
+
+
+
