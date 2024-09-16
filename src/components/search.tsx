@@ -24,7 +24,7 @@ const Search =()=>{
                             <span className='mt-3' style={{color:"#eb8307"}}>حرفه ای</span>
                         </div>
                     </div>
-                    <div className="container-fluid">
+                    <div className="container-fluid py-4">
                     <div className="row mx-0 px-0 ">
                         <div className="col-xl-9 col-md-12">
                             <div className="row">
@@ -151,6 +151,54 @@ const Search =()=>{
                                         </select>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-8 col-md-8">
+                            <div className="row">
+                                <div className="col-md-3 col-sm-6">
+                                    <div className="search-checkbox mt-4">
+                                        <span style={{fontSize:"13px"}} className="text-white ms-2">دوبله فارسی</span>
+                                        <div className="d-flex align-items-center">
+                                            <input type="checkbox" id='double' className="" />
+                                            <label htmlFor="double" className=""></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 col-sm-6">
+                                    <div className="search-checkbox mt-4">
+                                        <span style={{fontSize:"13px"}} className="text-white ms-2">سانسور شده</span>
+                                        <div className="d-flex align-items-center">
+                                            <input type="checkbox" id='censorship' className="" />
+                                            <label htmlFor="censorship" className=""></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 col-sm-6">
+                                    <div className="search-checkbox mt-4">
+                                        <span style={{fontSize:"13px"}} className="text-white ms-2">زیرنویس شده</span>
+                                        <div className="d-flex align-items-center">
+                                            <input type="checkbox" id='subtitle' className="" />
+                                            <label htmlFor="subtitle" className=""></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 col-sm-6">
+                                    <div className="search-checkbox mt-4">
+                                        <span style={{fontSize:"13px"}} className="text-white ms-2">پخش آنلاین</span>
+                                        <div className="d-flex align-items-center">
+                                            <input type="checkbox" id='online' className="" />
+                                            <label htmlFor="online" className=""></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-md-4">
+                            <div className="search-btn mt-4">
+                                <button className="">
+                                    <span style={{fontSize:"14px"}} className="text-white">جستجو</span>
+                                    <FontAwesomeIcon icon={faSearch} style={{color:"#eb8307" , width:"15px", height:"15px"}} />
+                                </button>
                             </div>
                         </div>
                     </div>

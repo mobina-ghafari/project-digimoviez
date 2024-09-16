@@ -89,6 +89,7 @@ $backgroundBox:#1c1c1c;
         height: 5px;
         background-color: black;
         margin-top: 20px;
+        border-radius: 30px;
     }
     
     .slider .thumb {
@@ -126,6 +127,64 @@ $backgroundBox:#1c1c1c;
     }
 }
 
+.search-checkbox{
+    @include flex();
+    
+    input{
+        display: none;
+    }
+
+    label{
+        width: 36px;
+        height: 20px;
+        border: 3px solid white;
+        display: inline-block;
+        border-radius: 30px;
+        box-shadow: 
+        0 3px 4px #171717
+        inset 0 -4px 4px #fff0;
+        position: relative;
+        cursor: pointer;
+    }
+
+    label::after{
+        content: "";
+        width: 12px;
+        height: 12px;
+        background-color: white;
+        position: absolute;
+        border-radius: 50%;
+        top: 1.5px;
+        left: 3px;
+        transition: all 0.4s;
+    }
+
+    input:checked+label{
+        background-color: $yellow;
+        border: 3px solid $yellow;
+    }
+
+    input:checked+label::after{
+        margin-left: 13px;
+        background-color: #242424;
+    }
+}
+
+.search-btn{
+    @include flex();
+    justify-content: end;
+    button{
+        background-color: black;
+        border: none;
+        outline: none;
+        @include flex();
+        justify-content: space-between;
+        width: 200px;
+        padding: 5px 7px;
+        border-radius: 20px;
+    }
+}
+
 @media (max-width:770px){
     .search-actor , .search-director , .search-type{
         justify-content: center;
@@ -139,7 +198,12 @@ $backgroundBox:#1c1c1c;
         select{
             width: 100%;
         }
-    }    
+    }  
+
+    .search-btn{
+        justify-content: start;
+    }
+
 }
 
 
