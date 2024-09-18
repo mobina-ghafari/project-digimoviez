@@ -13,7 +13,7 @@ const Search =()=>{
     const [values , setValues] = useState([MIN , MAX]);
     const [scores , setScores] = useState([minScore , maxScore]);
     return(
-        <div dir="rtl" className="container-fluid">
+        <div dir="rtl" className="container-fluid mt-5">
             <div className="row">
                 <div className="col-xl-10 col-lg-12 mx-auto">
                     <div className="d-flex search-box">
