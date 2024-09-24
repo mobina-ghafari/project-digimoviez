@@ -3,15 +3,10 @@ import Joker from '../img/joker.png';
 import BradPitt from '../img/brad pitt.png';
 import BreakingBad from '../img/breaking-bad.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
-import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { faFilm } from '@fortawesome/free-solid-svg-icons';
-import { faTv } from '@fortawesome/free-solid-svg-icons';
-import { faTheaterMasks } from '@fortawesome/free-solid-svg-icons';
-import { faHeadset } from '@fortawesome/free-solid-svg-icons';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { 
+    faUserPlus , faRightToBracket , faHome , faFilm , faTv ,
+     faTheaterMasks , faHeadset , faSearch , faBars 
+    }from '@fortawesome/free-solid-svg-icons';
 
 const Nav =()=>{
     return(

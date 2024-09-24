@@ -1,0 +1,142 @@
+
+
+.card{
+    background-color: #242424;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.card-right{
+
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    a{
+        background-color: #2d2d2d;
+        margin-top: 20px;
+        text-decoration: none;
+        border-radius: 10px;
+
+        .skew{
+            transform: skew(-20deg);
+            background-color: #1a1a1a;
+            width: 25px;
+            position: relative;
+            left: 6%;
+            transition: all 0.5s;
+        }
+        .trailer-icon{
+            background-color: #1a1a1a;
+            width: 30%;
+            text-align: center;
+            padding: 16px 0px;
+            color: #eb8307;
+            transition: all 0.5s;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .trailer-title{
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 14px;
+            margin-right: 10px;
+            transition: all 0.5s;
+        }
+    }
+
+    a:hover{
+        .trailer-title{
+            color: #eb8307;
+        }
+
+        .skew , .trailer-icon{
+            background-color: #eb8307;
+            color: white;
+        }
+
+        
+    }
+
+}
+
+@media (max-width:1020px){
+    .card-right{
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 0px;
+            .trailer-icon , .skew{
+                display: none;
+            }
+
+            .trailer-title{
+                margin: 0px;
+            }
+        }
+    }
+}
+
+.card-left{
+    margin: 10px;
+    .title{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        li{
+            margin-top: 15px;
+            .icon{
+                color: #eb8307;
+            }
+
+            span{
+                color: white;
+                font-size: 14px;
+                margin-right: 5px;
+            }
+
+            .score{
+                background-color: #6c3;
+                margin: 0px;
+                padding: 5px 8px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    p{
+        color: white;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .bluray{
+        background-color: #1d1d1d;
+        display: inline-block;
+        padding: 1px 5px;
+        border-radius: 5px;
+
+        span{
+            color: white;
+            font-size: 12px;
+        }
+
+        span::before{
+            content: "❗️";
+            margin-left: 3px;
+        }
+    }
+}

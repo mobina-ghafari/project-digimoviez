@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Navigation } from 'swiper/modules';
+import { EffectCoverflow, Navigation , Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -36,7 +36,12 @@ const Slider =()=>{
            slideShadows: false,
          }}
          navigation={true}
-         modules={[EffectCoverflow , Navigation]}
+         modules={[EffectCoverflow , Navigation , Autoplay]}
+
+         autoplay={{         
+           delay: 3000,     
+           disableOnInteraction: false,
+         }}
        >
         <SwiperSlide>
           <a href="/" className="film">

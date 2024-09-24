@@ -3,6 +3,7 @@ import Nav from './components/navigation';
 import './styles/main.scss'
 import Search from './components/search';
 import Slider from './components/slider';
+import Cards from './components/cards';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav/>
       <Slider/>
       <Search/>
+      <Cards/>
     </div>
   );
 }
