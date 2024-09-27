@@ -13,7 +13,7 @@ import Cucko from '../img/cucko.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClapperboard, faEarth, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 import { faTv } from '@fortawesome/free-solid-svg-icons';
-import { faClock, faFolderClosed } from '@fortawesome/free-regular-svg-icons';
+import { faClock, faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const Cards =()=>{
     return(
@@ -37,7 +37,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Late Night with the Devil 2023</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Late Night with the Devil 2023</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -88,7 +98,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Chief of Station 2024</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Chief of Station 2024</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -135,7 +155,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Sing Sing 2023</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Sing Sing 2023</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -185,7 +215,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم The Last Temptation of Christ 1988</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم The Last Temptation of Christ 1988</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -235,7 +275,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Mind Body Spirit 2023</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Mind Body Spirit 2023</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -281,7 +331,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Afraid 2024</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Afraid 2024</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -331,7 +391,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Slingshot 2024</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Slingshot 2024</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -381,7 +451,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم The Present 2024</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم The Present 2024</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -427,7 +507,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم 1992 2022</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم 1992 2022</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>
@@ -478,7 +568,17 @@ const Cards =()=>{
                                     </div>
                                     <div className="col-md-9 col-sm-12">
                                         <div className="card-left">
-                                            <a href="/" className="title">دانلود فیلم Cuckoo 2024</a>
+                                            <div className="name-score">
+                                                <a href="/" className="title">دانلود فیلم Cuckoo 2024</a>
+                                                <div className="heart-score">
+                                                    <a  href='/' className="heart"><FontAwesomeIcon className='icon' icon={faHeart}/></a>
+                                                    <div className="score">
+                                                        <span className="number">7.5<span className='text-white' style={{fontSize:"14px" , fontWeight:"normal"}}>/10</span></span>
+                                                        <span className="votes">9.5K Votes</span>
+                                                        <span className="imdb">IMDB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <ul className="">
                                                 <li className="">
                                                     <FontAwesomeIcon className='icon' icon={faTv}/>

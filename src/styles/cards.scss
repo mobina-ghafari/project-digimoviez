@@ -85,10 +85,66 @@
 
 .card-left{
     margin: 10px;
-    .title{
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
+    
+    .name-score{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 20px;
+
+        .title{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .heart-score{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            left: 0%;
+            .heart{
+                margin-left: 20px;
+                .icon{
+                    color: white;
+                    border: 1px solid #3c3c3c;
+                    border-radius: 50%;
+                    padding: 8px;
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+
+            .score{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .number{
+                    color: #eb8307;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+                .votes{
+                    color: white;
+                    font-size: 14px;
+                    border-top: 1px solid #3c3c3c;
+                    padding-top: 5px;
+                }
+
+                .imdb{
+                    background-color: #eb8307;
+                    color: white;
+                    border-radius: 5px;
+                    font-size: 17px;
+                    text-align: center;
+                    font-weight: bolder;
+                    height: 20px;
+                    width: 55px;
+                }
+            }
+        }
     }
 
     ul{
