@@ -11,9 +11,9 @@ import Film from '../img/1992.jpg';
 import Cucko from '../img/cucko.jpg';
 //icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClapperboard, faEarth, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDownLong, faClapperboard, faEarth, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 import { faTv } from '@fortawesome/free-solid-svg-icons';
-import { faClock, faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
+import { faClock, faClosedCaptioning, faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const Cards =()=>{
     return(
@@ -83,6 +83,15 @@ const Cards =()=>{
                                         </div>
                                     </div>
                                 </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
+                                </div>
                             </div>
                             <div className="card">
                                 <div className="row px-0 mx-0">
@@ -139,6 +148,15 @@ const Cards =()=>{
                                             داستان رئیس سابق قرارگاه سیا که متوجه می‌شود مرگ همسرش تصادفی نبوده و برای همین به دنیای جاسوسی برمی‌گردد تا...</p>
                                         </div>
                                     </div>
+                                </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
                                 </div>
                             </div>
                             <div className="card">
@@ -200,6 +218,15 @@ const Cards =()=>{
                                         </div>
                                     </div>
                                 </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
+                                </div>
                             </div>
                             <div className="card">
                                 <div className="row px-0 mx-0">
@@ -260,6 +287,15 @@ const Cards =()=>{
                                         </div>
                                     </div>
                                 </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
+                                </div>
                             </div>
                             <div className="card">
                                 <div className="row px-0 mx-0">
@@ -315,6 +351,15 @@ const Cards =()=>{
                                             <p className="">داستان یک اینفلوئنسر یوگا که سعی می‌کند در خانه مادربزرگ‌اش، مراسم روحانی‌ای را تمرین کند اما...</p>
                                         </div>
                                     </div>
+                                </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
                                 </div>
                             </div>
                             <div className="card">
@@ -376,6 +421,15 @@ const Cards =()=>{
                                         </div>
                                     </div>
                                 </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
+                                </div>
                             </div>
                             <div className="card">
                                 <div className="row px-0 mx-0">
@@ -436,6 +490,15 @@ const Cards =()=>{
                                         </div>
                                     </div>
                                 </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
+                                </div>
                             </div>
                             <div className="card">
                                 <div className="row px-0 mx-0">
@@ -491,6 +554,15 @@ const Cards =()=>{
                                             <p className="">داستان پسری باهوش که متوجه می‌شود با یک عتیقه خانوادگی می‌تواند زمان را دستکاری کند. او با کمک خواهر و برادرش سعی می‌کند به قبل از جدایی مادر و پدرشان برگردد تا شرایط را تغییر دهد.</p>
                                         </div>
                                     </div>
+                                </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
                                 </div>
                             </div>
                             <div className="card">
@@ -553,6 +625,15 @@ const Cards =()=>{
                                         </div>
                                     </div>
                                 </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
+                                </div>
                             </div>
                             <div className="card">
                                 <div className="row px-0 mx-0">
@@ -612,6 +693,15 @@ const Cards =()=>{
                                             <p className="">داستان دختری هفده ساله که مجبور می‌شود با خانواده‌اش به مسافر‌خانه‌ای برود که هیچ چیز آنطور که به نظر می‌آید نیست.</p>
                                         </div>
                                     </div>
+                                </div>
+                                <a href="/" className="download">
+                                    <div className="title">ادامه / <span>دانلود</span></div>
+                                    <div className="bg-icon">
+                                        <div className=""><FontAwesomeIcon className='icon' icon={faArrowDownLong}/></div>
+                                    </div>
+                                </a>
+                                <div className="subtitle">
+                                    <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
                                 </div>
                             </div>
                         </div>
