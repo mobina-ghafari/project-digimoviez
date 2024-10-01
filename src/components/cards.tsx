@@ -9,11 +9,40 @@ import Slingshot from '../img/slingshot.jpg';
 import Present from '../img/present.jpg';
 import Film from '../img/1992.jpg';
 import Cucko from '../img/cucko.jpg';
+import Penguin from '../img/penguin.jpg';
+import From from '../img/from.jpg';
+import Daryl from '../img/daryl.jpg';
+import Tulsa from '../img/tulsa.jpg';
+import Joan from '../img/joan.jpg';
+import Uzumaki from '../img/uzumaki.jpg';
+import Nobody from '../img/nobody.jpg';
+import Nogain from '../img/nogain.jpg';
+import Dear from '../img/dear.jpg';
+import Ghost from '../img/ghost.jpg';
+import Blue from '../img/blue.jpg';
+import Dahmer from '../img/dahmer.jpg';
+import Gyeongseong from '../img/gyeongseong.jpg';
+import Royal from '../img/royal.jpg';
+import Lover from '../img/lover.jpg';
+import ManS from '../img/manS.jpg';
+import Puss from '../img/puss.jpg';
+import SpiderMan from '../img/spiderMan.jpg';
+import Hitman from '../img/hitman.jpg';
+import Birth from '../img/birth.jpg';
 //icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDownLong, faClapperboard, faEarth, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDownLong, faClapperboard, faEarth, faMicrophone, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 import { faTv } from '@fortawesome/free-solid-svg-icons';
 import { faClock, faClosedCaptioning, faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+// import required modules
+import { Navigation } from 'swiper/modules';
 
 const Cards =()=>{
     return(
@@ -21,7 +50,172 @@ const Cards =()=>{
             <div className="row px-0 mx-0">
                 <div className="col-xl-10 mx-auto">
                     <div className="row mx-0 px-0 ">
-                        <div className="col-xl-3 col-lg-3 mx-0 px-0"></div>
+                        <div className="col-xl-3 col-lg-3 update-series mx-0 px-0">
+                            <div className="series">
+                                <div className="title">
+                                    <FontAwesomeIcon className='icon' icon={faTv} />
+                                    <div className="d-flex flex-column text-white">
+                                        <span className="span-t">سریال های</span>
+                                        <span className="span-b">بروز شده</span>
+                                    </div>
+                                </div>
+                                <div className="first-series">
+                                    <a href='/' className="">
+                                        <img src={Penguin} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={From} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Daryl} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Tulsa} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Joan} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Uzumaki} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Nobody} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Nogain} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Dear} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Ghost} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Blue} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Dahmer} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Gyeongseong} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Royal} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                                <div className="series-little">
+                                    <a href="/" className="">
+                                        <img src={Lover} alt="" className="" />
+                                        <span className="film-title">قسمت <span className='film-e'>۲</span> فصل اول با زیرنویس منتشرشد</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="film-double">
+                                <div className="title">
+                                        <FontAwesomeIcon className='icon' icon={faMicrophone} />
+                                        <div className="d-flex flex-column text-white">
+                                            <span className="span-t">فیلم های</span>
+                                            <span className="span-b">دوبله فارسی</span>
+                                        </div>
+                                </div>
+                                <div className="slider-film mt-4">
+                                <Swiper
+                                     slidesPerView={1}
+                                     spaceBetween={30}
+                                     loop={true}
+                                     navigation={true}
+                                     modules={[Navigation]}
+                                    className="mySwiper"
+                                >
+                                    <SwiperSlide>
+                                    <div className="">
+                                        <img src={ManS} />
+                                        <div className="title">
+                                            <span className="name">Despicable Me 4 2024</span>
+                                            <span className="score">6.2<span>/10</span></span>
+                                        </div>
+                                    </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <div className="">
+                                        <img src={Puss} />
+                                        <div className="title">
+                                            <span className="name">Puss in Boots:<br/> The Last Wish 2022</span>
+                                            <span className="score">6.2<span>/10</span></span>
+                                        </div>
+                                    </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <div className="">
+                                        <img src={SpiderMan} />
+                                        <div className="title">
+                                            <span className="name">Spider-Man:Across the<br/> Spider-Verse 2023</span>
+                                            <span className="score">6.2<span>/10</span></span>
+                                        </div>
+                                    </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <div className="">
+                                        <img src={Hitman} />
+                                        <div className="title">
+                                            <span className="name">Hitman:Agent 47 2015</span>
+                                            <span className="score">6.2<span>/10</span></span>
+                                        </div>
+                                    </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <div className="">
+                                        <img src={Birth} />
+                                        <div className="title">
+                                            <span className="name">Birh 2004</span>
+                                            <span className="score">6.2<span>/10</span></span>
+                                        </div>
+                                    </div>
+                                    </SwiperSlide>
+                                </Swiper>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-xl-9 col-lg-9 col-md-12">
                             <div className="card">
                                 <div className="row px-0 mx-0">
