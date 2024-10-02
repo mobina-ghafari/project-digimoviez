@@ -29,9 +29,10 @@ import Puss from '../img/puss.jpg';
 import SpiderMan from '../img/spiderMan.jpg';
 import Hitman from '../img/hitman.jpg';
 import Birth from '../img/birth.jpg';
+import Wedding from '../img/wedding.jpg';
 //icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDownLong, faClapperboard, faEarth, faMicrophone, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDownLong, faChevronLeft, faClapperboard, faEarth , faFilm, faMicrophone, faTheaterMasks, faUserSecret } from '@fortawesome/free-solid-svg-icons';
 import { faTv } from '@fortawesome/free-solid-svg-icons';
 import { faClock, faClosedCaptioning, faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
 
@@ -213,6 +214,484 @@ const Cards =()=>{
                                     </div>
                                     </SwiperSlide>
                                 </Swiper>
+                                </div>
+                            </div>
+                            <div className="category">
+                                <div className="title">
+                                    <FontAwesomeIcon className='icon' icon={faFilm} />
+                                    <div className="d-flex flex-column text-white">
+                                        <span className="span-t">دسته بندی</span>
+                                        <span className="span-b">فیلم ها</span>
+                                    </div>
+                                </div>
+                                <ul className="">
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">درام</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">هیجان انگیز</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">کمدی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">اکشن</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ماجراجویی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">جنایی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ترسناک</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">عاشقانه</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">درام</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">هیجان انگیز</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">کمدی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">اکشن</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ماجراجویی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">جنایی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ترسناک</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">عاشقانه</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">درام</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">هیجان انگیز</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">کمدی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">اکشن</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ماجراجویی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">جنایی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ترسناک</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">عاشقانه</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="category">
+                                <div className="title">
+                                    <FontAwesomeIcon className='icon' icon={faFilm} />
+                                    <div className="d-flex flex-column text-white">
+                                        <span className="span-t">دسته بندی</span>
+                                        <span className="span-b">سریال ها</span>
+                                    </div>
+                                </div>
+                                <ul className="">
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">درام</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">هیجان انگیز</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">کمدی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">اکشن</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ماجراجویی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">جنایی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ترسناک</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">عاشقانه</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">درام</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">هیجان انگیز</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">کمدی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">اکشن</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ماجراجویی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">جنایی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ترسناک</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">عاشقانه</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">درام</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">هیجان انگیز</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">کمدی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">اکشن</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ماجراجویی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">جنایی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">ترسناک</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">عاشقانه</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">رازآلود</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                    <li className="">
+                                        <div className="">
+                                            <FontAwesomeIcon className='icon' icon={faChevronLeft} />
+                                            <a href="/">فانتزی</a>
+                                        </div>
+                                        <span className="">(۴۴۸۲)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="trailer">
+                                <div className="title">
+                                    <FontAwesomeIcon className='icon' icon={faFilm} />
+                                    <div className="d-flex flex-column text-white">
+                                        <span className="span-t">تریلرها</span>
+                                        <span className="span-b">به زودی</span>
+                                    </div>
+                                </div>
+                                <div className="trailer-film">
+                                    <a href="/">
+                                        <img src={Wedding} alt="" className="" />
+                                        <span className="">The People We Hate at the Wedding 2022</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
