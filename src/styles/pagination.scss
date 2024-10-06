@@ -1,0 +1,43 @@
+.pagin{
+    margin-top: 35px;
+    z-index: 1; 
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        list-style: none;
+        flex-wrap: wrap;
+
+        .first, .bottom{
+            background-color: #242424;
+            a{
+                color: #eb8307;
+            }
+        }
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            width: 35px;
+            height: 35px;
+            margin: 0px 5px;
+            border-radius: 7px;
+            transform: rotate(48deg);
+
+            a , span{
+                text-decoration: none;
+                color: white;
+                transform: rotate(-48deg);
+            }
+        }
+
+        .li-hover:hover{
+            background-color: #242424;
+            a , span{
+                color: #eb8307;
+            }
+        }
+    }
+}

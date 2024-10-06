@@ -219,7 +219,7 @@
         height: 80px;
         width: 80px;
         padding: 10px;
-        border-radius: 20px;
+        border-top-right-radius: 20px;
         
 
         div{
@@ -274,12 +274,6 @@
         display: none;
     }
 }
-
-// @media (max-width:880px){
-//     .update-series{
-//         display: none;
-//     }
-// }
 
 .series{
     background-color: #242424;

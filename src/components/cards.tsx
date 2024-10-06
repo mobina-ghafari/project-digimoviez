@@ -45,6 +45,9 @@ import 'swiper/css/navigation';
 // import required modules
 import { Navigation } from 'swiper/modules';
 
+//pagination
+import Page from './pagination';
+
 const Cards =()=>{
     return(
         <div className="container-fluid">
@@ -733,6 +736,7 @@ const Cards =()=>{
                                     <FontAwesomeIcon className='icon' icon={faClosedCaptioning} />
                                 </div>
                             </div>
+                            <Page/>
                         </div>
                         <div dir='rtl' style={{zIndex:"1"}} className="col-xl-3 col-lg-3 col-md-12 update-series mx-0 px-0">
                             <div className="series">
@@ -853,7 +857,7 @@ const Cards =()=>{
                                 >
                                     <SwiperSlide>
                                     <div className="">
-                                        <img src={ManS} />
+                                        <img src={ManS} alt='' />
                                         <div className="title">
                                             <span className="name">Despicable Me 4 2024</span>
                                             <span className="score">6.2<span>/10</span></span>
@@ -862,7 +866,7 @@ const Cards =()=>{
                                     </SwiperSlide>
                                     <SwiperSlide>
                                     <div className="">
-                                        <img src={Puss} />
+                                        <img src={Puss} alt='' />
                                         <div className="title">
                                             <span className="name">Puss in Boots:<br/> The Last Wish 2022</span>
                                             <span className="score">6.2<span>/10</span></span>
@@ -871,7 +875,7 @@ const Cards =()=>{
                                     </SwiperSlide>
                                     <SwiperSlide>
                                     <div className="">
-                                        <img src={SpiderMan} />
+                                        <img src={SpiderMan} alt='' />
                                         <div className="title">
                                             <span className="name">Spider-Man:Across the<br/> Spider-Verse 2023</span>
                                             <span className="score">6.2<span>/10</span></span>
@@ -880,7 +884,7 @@ const Cards =()=>{
                                     </SwiperSlide>
                                     <SwiperSlide>
                                     <div className="">
-                                        <img src={Hitman} />
+                                        <img src={Hitman} alt='' />
                                         <div className="title">
                                             <span className="name">Hitman:Agent 47 2015</span>
                                             <span className="score">6.2<span>/10</span></span>
@@ -889,7 +893,7 @@ const Cards =()=>{
                                     </SwiperSlide>
                                     <SwiperSlide>
                                     <div className="">
-                                        <img src={Birth} />
+                                        <img src={Birth} alt='' />
                                         <div className="title">
                                             <span className="name">Birh 2004</span>
                                             <span className="score">6.2<span>/10</span></span>
