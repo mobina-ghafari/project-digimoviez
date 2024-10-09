@@ -4,6 +4,7 @@ import './styles/main.scss'
 import Search from './components/search';
 import Slider from './components/slider';
 import Cards from './components/cards';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Slider/>
       <Search/>
       <Cards/>
+      <Footer/>
     </div>
   );
 }
